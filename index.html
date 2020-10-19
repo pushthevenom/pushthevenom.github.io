@@ -8,7 +8,7 @@
     <header>
         <nav>
             <a href="#">
-                <img src="" alt="logo">
+                <img src="../pushthevenom.github.io/img/content-logo.png" alt="logo">
             </a>
             <ul>
                 <li><a href="#">ГЛАВНАЯ</a></li>
@@ -88,19 +88,32 @@
             <a href="#">КАК ПРОЕХАТЬ</a>
             <a href="#">ЗАПИСАТЬСЯ</a>
         </section>
+
         <section>
-            <h2>ЗАПИСАТЬСЯ</h2>
+            <h2>запись</h2>
             <p>
-               УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ<br>
-               С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ
+               укажите дату и время и мы свяжемся<br>
+               с вами для подтверждения брони
             </p>
-            <form action="">
-                <input type="name">
-                <input type="date">
-                <input type="time">
-                <input type="number">
+            <form action="" method="post">
+                <p>
+                    <label for="appointment-date">Дата</label>
+                    <input id="appointment-date" type="date" name="date" value="2020-10-08">
+                </p>
+                <p>
+                    <label for="appointment-time">Время</label>
+                    <input id="appointment-time" type="time" name="time" value="10:00">
+                </p>
+                <p>
+                    <label for="appointment-name">Ваше Имя</label>
+                    <input id="appointment-name" type="name" name="name" value="" placeholder="чик чирик">
+                </p>
+                <p>
+                    <label for="appointment-phone">Телефон</label>
+                    <input id="appointment-phone" type="tel" name="phone" value="" placeholder="+7-000-000-00-00">
+                </p>
+                <button type="submit">Отправить</button>
             </form>
-            <a href="">ОТПРАВИТЬ</a>
         </section>
     </main>
 
