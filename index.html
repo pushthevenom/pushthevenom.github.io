@@ -2,135 +2,150 @@
 <html lang="ru">
 <head>
    <meta charset="utf-8">
+
    <title>Барбершоп "Бородинский"</title>
+   <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/normalize.css">
+   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="#">
+    <header class="main-header">
+        <nav class="main-navigation">
+            <a class="main-header-logo" href="#">
                 <img src="../pushthevenom.github.io/img/content-logo.png" alt="logo">
             </a>
-            <ul>
-                <li><a href="#">ГЛАВНАЯ</a></li>
-                <li><a href="#">ПРАЙС-ЛИСТ</a></li>
-                <li><a href="#">МАГАЗИН</a></li>
-                <li><a href="#">НОВОСТИ</a></li>
-                <li><a href="#">КОНТАКТЫ</a></li>
-                <li><a href="#">ЗАПИСАТЬСЯ</a></li>
+            <ul class="site-navigation">
+                <li><a href="#">главная</a></li>
+                <li><a href="#">прайс-лист</a></li>
+                <li><a href="#">магазин</a></li>
+                <li><a href="#">новости</a></li>
+                <li><a href="#">контакты</a></li>
+                <li><a href="#">записаться</a></li>
             </ul>
-            <ul>
+            <ul class="user-navigation">
                 <li>
-                    <button>ВХОД</button>
+                    <a class="login-link" href="#">ВХОД</a>
                 </li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <h1>Барбершоп Бородинский</h1>
-        <section>
-            <h2>ПРИЕМУЩЕСТВА</h2>
-            <ul>
-                <li>
-                    <h3>БЫСТРО</h3>
+    <main class="container">
+        <h1 class="visually-hidden">Барбершоп Бородинский</h1>
+        <section class="features">
+            <h2 class="visually-hidden">ПРИЕМУЩЕСТВА</h2>
+            <ul class="features-list">
+                <li class="feature-item">
+                    <h3>быстро</h3>
                     <p>МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ ОБЛАДАТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!</p>
                 </li>
-                <li>
-                    <h3>КРУТО</h3>
+                <li class="feature-item">
+                    <h3>круто</h3>
                     <p>ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ. МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО! ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.</p>
                 </li>
-                <li>
-                    <h3>ДОРОГО</h3>
+                <li class="feature-item">
+                    <h3>дорого</h3>
                     <p>НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕННЫЙ СТАТУС?</p>
                 </li>
             </ul>
         </section>
 
-        <section>
-            <h2>НОВОСТИ</h2>
-            <ul>
-                <li>
-                    <p>СЕКРЕТЫ МЯГКОЙ И ПОСЛУШНОЙ БОРОДЫ</p>
-                    <time datetime="2020-05-26">26 мая</time>
-                    <a href="">ПОДРОБНЕЕ</a>
 
-                </li>
-                <li>
-                    <p>МЫ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМЕЙСТЕР!</p>
-                    <time datetime="2020-05-28">28 мая</time>
-                    <a href="">ПОДРОБНЕЕ</a>
-                </li>
-            </ul>
-            <a href="">ВСЕ НОВОСТИ</a>
-        </section>
+       <div class="index-columns">
+            <section class="news">
+                <h2>НОВОСТИ</h2>
+                <ul class="news-list">
+                    <li class="news-item">
+                        <p>СЕКРЕТЫ МЯГКОЙ И ПОСЛУШНОЙ БОРОДЫ</p>
+                        <time datetime="2020-05-26">26 мая</time>
+                        <a href="">ПОДРОБНЕЕ</a>
 
-        <section>
-            <h2></h2>
-            <figure>
-                <a href=""><img src="" alt=""></a>
-            </figure>
-            <button type="button">НАЗАД</button>
-            <button type="button">ВПЕРЕД</button>
-        </section>
+                    </li>
+                    <li class="news-item">
+                        <p>МЫ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМЕЙСТЕР!</p>
+                        <time datetime="2020-05-28">28 мая</time>
+                        <a href="">ПОДРОБНЕЕ</a>
+                    </li>
+                </ul>
+                <a class="button" href="">все новости</a>
+            </section>
 
-        <section>
-            <h2>КОНТАКТЫ</h2>
-            <p>
-               BARBERSHOP «BORODINSKI»<br>
-               АДРЕС:  Г. САНКТ-ПЕТЕРБУРГ  УЛ. БЕЛИНСКОГО 6<br>
-               ТЕЛЕФОН:+7 (812) 666-02-004
-            </p>
-            <p>
-                ВРЕМЯ РАБОТЫ:<br>
-                ПН — ПТ: С 10:00 ДО 22:00<br>
-                СБ — ВС: С 10:00 ДО 19:00
-            </p>
-            <a href="#">КАК ПРОЕХАТЬ</a>
-            <a href="#">ЗАПИСАТЬСЯ</a>
-        </section>
+            <section class="gallery">
+                <h2>фото</h2>
+                <figure class="gallery-content">
+                    <a href=""><img src="" alt=""></a>
+                </figure>
+                <button class="button gallery-button gallery-button-back" type="button">назад</button>
+                <button class="button gallery-button gallery-button-next" type="button">вперед</button>
+            </section>
+        </div>
 
-        <section>
-            <h2>запись</h2>
-            <p>
-               укажите дату и время и мы свяжемся<br>
-               с вами для подтверждения брони
-            </p>
-            <form action="" method="post">
+        <div class="index-columns">
+            <section class="contacts">
+                <h2>Контактная информация</h2>
                 <p>
-                    <label for="appointment-date">Дата</label>
-                    <input id="appointment-date" type="date" name="date" value="2020-10-08">
+                   BARBERSHOP «BORODINSKI»<br>
+                   АДРЕС:  Г. САНКТ-ПЕТЕРБУРГ  УЛ. БЕЛИНСКОГО 6<br>
+                   ТЕЛЕФОН:+7 (812) 666-02-004
                 </p>
                 <p>
-                    <label for="appointment-time">Время</label>
-                    <input id="appointment-time" type="time" name="time" value="10:00">
+                    ВРЕМЯ РАБОТЫ:<br>
+                    ПН — ПТ: С 10:00 ДО 22:00<br>
+                    СБ — ВС: С 10:00 ДО 19:00
                 </p>
-                <p>
-                    <label for="appointment-name">Ваше Имя</label>
-                    <input id="appointment-name" type="name" name="name" value="" placeholder="чик чирик">
+                <a class="button" href="#">как проехать</a>
+                <a class="button" href="#">обратная связь</a>
+            </section>
+
+            <section class="appointment">
+                <h2>Записаться</h2>
+                <p class="appointment-info">
+                   укажите дату и время и мы свяжемся<br>
+                   с вами для подтверждения брони
                 </p>
-                <p>
-                    <label for="appointment-phone">Телефон</label>
-                    <input id="appointment-phone" type="tel" name="phone" value="" placeholder="+7-000-000-00-00">
-                </p>
-                <button type="submit">Отправить</button>
-            </form>
-        </section>
+                <form class="appointment-form" action="" method="post">
+                    <p class="appointment-item">
+                        <label for="appointment-date">Дата</label>
+                        <input id="appointment-date" type="date" name="date" value="2020-10-08">
+                    </p>
+                    <p class="appointment-item">
+                        <label for="appointment-time">Время</label>
+                        <input id="appointment-time" type="time" name="time" value="10:00">
+                    </p>
+                    <p class="appointment-item">
+                        <label for="appointment-name">Ваше Имя</label>
+                        <input id="appointment-name" type="name" name="name" value="" placeholder="чик чирик">
+                    </p>
+                    <p class="appointment-item">
+                        <label for="appointment-phone">Телефон</label>
+                        <input id="appointment-phone" type="tel" name="phone" value="" placeholder="+7-000-000-00-00">
+                    </p>
+                    <button class="button" type="submit">Отправить</button>
+                </form>
+            </section>
+        </div>
     </main>
 
-    <footer>
-        <p>
+    <footer class="main-footer">
+        <p class="footer-contacts">
            BARBERSHOP «BORODINSKI»<br>
            АДРЕС:  Г. САНКТ-ПЕТЕРБУРГ  УЛ. БЕЛИНСКОГО 6<br>
            ТЕЛЕФОН:  +7 (812) 666-02-004<br>
             <a href="">КАК ПРОЕХАТЬ?</a>
         </p>
-        <div>
-            <p>ДАВАЙТЕ ДРУЖИТЬ</p>
+        <div class="footer-social">
+            <b>ДАВАЙТЕ ДРУЖИТЬ</b>
             <ul>
-                <li><a href="">VK</a></li>
-                <li><a href="">INSTAGRAMM</a></li>
-                <li><a href="">FACEBOOK</a></li>
+                <li><a class="social-button" href="">VK</a></li>
+                <li><a class="social-button" href="">INSTAGRAMM</a></li>
+                <li><a class="social-button" href="">FACEBOOK</a></li>
             </ul>
         </div>
+        <p class="footer-copyright">
+            <b>Разработано</b>
+            <a href="" class="button"></a>
+        </p>
     </footer>
+
+
 </body>
