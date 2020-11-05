@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
 
+<<<<<<< Updated upstream
     font-family: 'PT Sans', Arial, sans-serif;
     font-size: 14px;
     line-height: 24;
@@ -11,6 +12,17 @@ body {
 
     border-color: #000000;
     background-image: url("");
+=======
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+
+    background-color: #111;
+    background-image: url("../img/index-backgound.jpg");
+>>>>>>> Stashed changes
     background-position: top center;
     background-repeat: no-repeat;
 
@@ -18,31 +30,78 @@ body {
 
 .button {
 
+<<<<<<< Updated upstream
+=======
+    font: inherit;
+
+    text-align: center;
+    color: #fff;
+    vertical-align: middle;
+    text-transform:  uppercase;
+    background-color: #000;
+    border: none;
+
+>>>>>>> Stashed changes
 
 }
 
 .button:hover,
 .button:focus,
 .button:active {
+<<<<<<< Updated upstream
+=======
+    background-color:#663d15;
+
+}
+
+.inner-page {
+
+    color: #000000;
+
+    background-color:#f9f6f3;
+    background-image: url("");
+    background-position: 0 0;
+    background-repeat:repeat;
+>>>>>>> Stashed changes
 
 
 }
 
 a {
+<<<<<<< Updated upstream
+=======
+    text-decoration: none;
+>>>>>>> Stashed changes
 
 }
 
 .main-navigation {
+<<<<<<< Updated upstream
+=======
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    background-color: #000000;
+>>>>>>> Stashed changes
 }
 
 
 .site-navigation,
 .user-navigation {
+<<<<<<< Updated upstream
+=======
+    list-style: none;
+>>>>>>> Stashed changes
 
 }
 
 .site-navigation a,
 .user-navigation a {
+<<<<<<< Updated upstream
+=======
+    color:#ffffff;
+    padding: 20px;
+>>>>>>> Stashed changes
 
 }
 
@@ -50,6 +109,7 @@ a {
 .site-navigation a:focus,
 .user-navigation a:hover,
 .user-navigation a:focus {
+<<<<<<< Updated upstream
 }
 
 .features-list {
@@ -59,85 +119,200 @@ a {
 }
 
 .feature-item h3 {
+=======
+    background-color: #242424;
+}
+
+.features-list {
+    list-style: none;
+
+}
+
+.feature-item {
+    text-align: center;
+}
+
+.feature-item h3 {
+    font-size: 30px;
+    line-height: 42px;
+
+>>>>>>> Stashed changes
 }
 
 
 
 .index-columns {
 
+<<<<<<< Updated upstream
+=======
+    color: #000000;
+
+    background-color:#f8f5f2;
+    background-image: url("");
+    background-position: 0 0;
+    background-repeat:repeat;
+
+>>>>>>> Stashed changes
 }
 
 .index-columns h2 {
 
+<<<<<<< Updated upstream
 }
 
 .news-list {
+=======
+    font-size: 30px;
+    line-height: 42px;
+
+}
+
+.news-list {
+    list-style: none;
+
+>>>>>>> Stashed changes
 
 }
 
 .news-item time {
+<<<<<<< Updated upstream
+=======
+    text-transform: none;
+>>>>>>> Stashed changes
 
 }
 
 .gallery-content {
 
+<<<<<<< Updated upstream
 }
 
 .appointment-item input {
+=======
+
+    background-color:#cccccc;
+    border: 1px solid #ffffff;
+
+}
+
+.appointment-item input {
+    font:inherit;
+    background-color: transparent;
+    border: 2px solid #000000;
+>>>>>>> Stashed changes
 
 }
 
 .appointment-item input:focus{
+<<<<<<< Updated upstream
+=======
+    background-color:#663d15;
+>>>>>>> Stashed changes
 
 }
 
 .main-footer {
+<<<<<<< Updated upstream
+=======
+    color: #ffffff;
+
+    background-color: #cccccc;
+    background-image: url("");
+    background-position: 0 0;
+    background-repeat:repeat;
+>>>>>>> Stashed changes
 
 }
 
 .footer-contacts a {
+<<<<<<< Updated upstream
+=======
+    color: inherit;
+    text-decoration: underline;
+>>>>>>> Stashed changes
 
 }
 
 .footer-contacts a:hover,
 .footer-contacts a:focus {
+<<<<<<< Updated upstream
+=======
+    text-decoration: none;
+>>>>>>> Stashed changes
 
 }
 
 .footer-social {
+<<<<<<< Updated upstream
+=======
+    text-align: center;
+>>>>>>> Stashed changes
 
 }
 
 .footer-social ul{
+<<<<<<< Updated upstream
 
+=======
+    list-style: none;
+>>>>>>> Stashed changes
 
 }
 
 .social-button {
+<<<<<<< Updated upstream
+=======
+    color: inherit;
+>>>>>>> Stashed changes
 
 
 }
 
 .footer-copyright {
+<<<<<<< Updated upstream
+=======
+    text-align: center;
+>>>>>>> Stashed changes
 
 
 }
 
 .footer-copyright .button:hover,
 .footer-copyright .button:focus {
+<<<<<<< Updated upstream
+=======
+    color: #000000;
+    background-color: #fff;
+>>>>>>> Stashed changes
 
 }
 
 .modal {
+<<<<<<< Updated upstream
 }
 
 .modal h2 {
+=======
+
+    color: #111;
+
+    background-color:#f9f6f3;
+    background-image: url("");
+    background-position: 0 0;
+    background-repeat:repeat;
+}
+
+.modal h2 {
+    font-size: 30px;
+    line-height: 42px;
+>>>>>>> Stashed changes
 
 }
 
 .login-form input[type="text"],
 .login-form input[type="password"] {
 
+<<<<<<< Updated upstream
 
 }
 
@@ -146,6 +321,45 @@ a {
 
 
 
+=======
+    font: inherit;
+
+    color: #000000;
+    text-transform:  uppercase;
+    background-color: #f9f6f3;
+    border:2px solid #000000;
+
+}
+
+
+.login-form input:focus {
+    border-color: #663d15;
+
+
+}
+ .login-checkbox:hover,
+ .login-checkbox:focus  {
+     border-color: #663d15;
+
+
+}
+
+.restore {
+    color: #000000;
+    text-decoration:underline;
+
+
+}
+
+.restore:hover,
+.restore:focus {
+
+    text-decoration: none;
+
+
+}
+
+>>>>>>> Stashed changes
 
 
 
