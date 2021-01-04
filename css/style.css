@@ -121,27 +121,33 @@ img {
     max-width: 140px;
     margin: 0;
     padding: 0;
-    margin-left: 80px;
+    margin-left:;
     list-style: none;
 }
 
-.user-navigation.login-link {
+.user-navigation .login-link {
     position: relative;
     padding-left: 50px;
 }
 
-.login-link:before {
+.login-link::before {
     position: absolute;
     content: "";
-    width: 20px;
-    height: 20px;
-    top: 24px;
-    right: 550px;
-    background-color: #000;
-    background-image: url(../img/sprites.png);
+    width: 30px;
+    height: 30px;
+    top: 28px;
+    left: 20px;
+    
+    background-image: url("https://raw.githubusercontent.com/SergeyGladkikh24/barbershop/f815ba9308580b513854508fb6fa0ebdae403f22/img/login.svg");
     background-repeat: no-repeat;
-    background-position: 0 -207px;
+    background-position: 0 0;
     opacity: 0.3;
+}
+
+.login-link:hover::before{
+    opacity: 1;
+    
+    
 }
 
 .site-navigation a,
@@ -750,7 +756,7 @@ input[type="radio"].visually-hidden {
     content: "";
     position: absolute;
     width: 10px;
-    height: 10%;
+    height: 10px;
     right: -26px;
     bottom: 7px;
     transform: rotate(45deg);
@@ -768,7 +774,7 @@ input[type="radio"].visually-hidden {
 .inner-content h2 {
     margin-top: 60px;
     margin-bottom: 30px;
-    font-size: 20px;
+    font-size: 21px;
     line-height: 30px;
 }
 
@@ -876,7 +882,7 @@ input[type="radio"].visually-hidden {
 
 .inner-column-left *:first-child,
 .inner-column-right *:first-child {
-    margin-bottom: 0;
+    
 }
 
 .inner-columns > h2:first-child {
